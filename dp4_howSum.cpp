@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
+
+
 int check[1000];
 vector<int> v;
 
@@ -55,3 +57,8 @@ int main(){
     }
     return 0;
 }
+
+//Brute Force : m=target sum n= arr size
+// Complexity: T: o(n^m * m) S: o(m)
+//Memoized
+// Complexity: T: o(n*m^2) S: o(m^2)
