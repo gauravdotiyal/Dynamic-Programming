@@ -35,6 +35,6 @@ int main()
      
     vector<string> words {"ma","man","min","max",};
 
-    cout<<canConstruct("manman",words,memo);
+    cout<<canConstruct("manmanman",words,memo);
     return 0;
 }
