@@ -22,13 +22,13 @@ bool canConstruct(string target ,vector<string> words,unordered_map<string,bool>
             suffix.erase(pos,words[i].size());
             if(canConstruct(suffix,words,memo)){
                 memo[target]=true;
-                return true;
+                return 1;
             }
         }
     }
     
     memo[target]=false;
-    return false;
+    return 0;
 }
 int main()
 {
